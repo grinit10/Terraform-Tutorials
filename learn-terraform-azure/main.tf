@@ -1,5 +1,11 @@
 # Configure the Azure provider
 terraform {
+    cloud {
+    organization = "GenAi-sandbox"
+    workspaces {
+      name = "Terraform-Tutorials"
+    }
+  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"

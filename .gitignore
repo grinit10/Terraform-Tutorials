@@ -4,3 +4,6 @@
 
 /.vs
 *.exe
+*.tfstate
+/*/*.tfstate
+/learn-terraform-azure/.terraform
